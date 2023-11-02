@@ -35,10 +35,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
+
       # Runs a single command using the runners shell
       - name: Launch jupyter
-        run: echo "# TODO Launching process"
+        run: make bench_mark
 
       # Runs a set of commands using the runners shell
       - name: Upload Artifacts
