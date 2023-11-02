@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Upload Artifacts
-        uses: action/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: Generated outputs
           path: |
